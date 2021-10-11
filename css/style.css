@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url("../img/Surface_Laptop_Go_001.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    display: grid;
+}
+
+text, h1, h2, h3, p {
+    color: black;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    line-height: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32pt;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    font-weight: 400;
+}
+
+p {
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.container {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.links-container {
+    color: black;
+    padding: 14px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button {
+    color: black;
+    padding: 0 4px;
+}
+
+.link-color {
+    transition: color 300ms ease;
+}
+
+.link-color:link {
+    color: black;
+}
+
+.link-color:hover {
+    color: darkolivegreen;
+}
+
+.link-color:visited {
+    color: black;
+}
