@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image: url("../img/bg.png");
+    background-repeat: repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+    color: white;
+}
